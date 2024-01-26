@@ -70,13 +70,13 @@ export default function Home() {
                   </Link>
                 </div>
                 <div className="w-px h-5 bg-gray-300" />
-                <a
-                  href="#"
+                <Link
+                  href="/app"
                   className="px-5 py-2 text-base font-semibold leading-7 text-gray-900 transition-all duration-200 bg-transparent border border-gray-900 rounded-xl font-pj focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-gray-900 hover:bg-gray-900 hover:text-white focus:bg-gray-900 focus:text-white"
                   role="button"
                 >
                   Launch App
-                </a>
+                </Link>
               </div>
             </div>
           </div>
@@ -97,13 +97,13 @@ export default function Home() {
                   </p>
                 </div>
                 <div className="mt-8 sm:flex sm:items-center sm:justify-center lg:justify-start sm:space-x-5 lg:mt-12">
-                  <a
-                    href="#"
+                  <Link
+                    href="/app"
                     className="inline-flex items-center px-8 py-4 text-lg font-bold text-white transition-all duration-200 bg-gray-900 border border-transparent rounded-xl focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-gray-900 font-pj justif-center hover:bg-gray-600"
                     role="button"
                   >
                     Get Started
-                  </a>
+                  </Link>
                 </div>
               </div>
               <div className="xl:col-span-3">
@@ -318,13 +318,13 @@ export default function Home() {
                     "linear-gradient(90deg, #0088cc -0.55%, #0056A7 22.86%, #002748 48.36%, #2ab641 73.33%, #f1e05a 99.34%)",
                 }}
               />
-              <a
-                href="#"
+              <Link
+                href="/app"
                 className="relative inline-flex items-center justify-center px-8 py-4 text-lg font-bold text-white transition-all duration-200 bg-gray-900 font-pj rounded-xl focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-gray-900"
                 role="button"
               >
                 Get Started
-              </a>
+              </Link>
             </div>
           </div>
           <div className="lg:flex lg:items-center lg:justify-between mt-14 lg:mt-24">
