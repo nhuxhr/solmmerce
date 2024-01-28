@@ -10,7 +10,7 @@ type Context = {
   };
 };
 
-export const runtime: string = "edge";
+export const runtime = "edge";
 
 async function getStore(address: string) {
   const program = getSolmmerceProgram();
