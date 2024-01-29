@@ -329,8 +329,9 @@ export default function Home() {
           </div>
           <div className="lg:flex lg:items-center lg:justify-between mt-14 lg:mt-24">
             <div>
-              <Logo />
+              <Logo className="mx-auto" />
             </div>
+
             <ul className="flex items-center justify-center mt-8 space-x-3 sm:mt-12 lg:justify-end lg:mt-0">
               <li>
                 <a

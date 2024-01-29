@@ -3,17 +3,18 @@ import Image from "next/image";
 
 import LogoLight from "@/assets/images/logo/light.svg";
 import LogoDark from "@/assets/images/logo/dark.svg";
+import { cn } from "@/lib/utils";
 
-const Logo = () => {
+const Logo = ({ className }: { className?: string }) => {
   return (
     <>
       <Image
-        className="w-auto h-8 block dark:hidden"
+        className={cn("w-auto h-8 block dark:hidden", className)}
         src={LogoLight}
         alt="Logo"
       />
       <Image
-        className="w-auto h-8 hidden dark:block"
+        className={cn("w-auto h-8 hidden dark:block", className)}
         src={LogoDark}
         alt="Logo"
       />
